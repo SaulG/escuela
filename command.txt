@@ -1,0 +1,3 @@
+g++ -Wall -I/usr/include/cppconn -o connection connection.cc -L/usr/lib -lmysqlcppconn
+g++  -Wall -I/usr/include/cppconn -o Main Main.cc Dao.h DaoEstudiante.h DaoEstudiante.cc Estudiante.h Estudiante.cc -L/usr/lib -lmysqlcppconn
+
