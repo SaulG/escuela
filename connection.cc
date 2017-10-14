@@ -32,12 +32,6 @@ int main()
         std::cout << std::endl;
     }
  
-    // Editamos un registro existente
-    // La consulta lanza una excepción con un error tipo 0 (éxito)
-    // try {
-    //     statement->executeQuery("UPDATE usuarios SET apellido='Stroustrup' WHERE id = 1 AND nombre='Bjarne'");
-    // } catch (sql::SQLException &e) {}
- 
     // Eliminamos los objetos
     delete resultset;
     delete statement;
